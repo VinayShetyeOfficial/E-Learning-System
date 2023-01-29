@@ -1,0 +1,39 @@
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Plus Button for adding New User Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remove spinner buttons of input field  */
+
+/* for Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* for Mozilla Firefox  */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-input-placeholder,
+::-ms-input-placeholder {
+  text-transform: capitalize !important;
+}
